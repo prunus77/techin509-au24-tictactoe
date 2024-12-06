@@ -80,7 +80,11 @@ tic_tac_toe/
 ### 3. **TicTacToe Class (`game.py`)**
    - Orchestrates the game flow.
    - Sets up players, manages turns, and determines game outcomes.
+   - The other classes are called in this class
 
+### 4. **Initialization Class (`__init__.py`)**
+   - Forms the base of the OOP 
+   - This file initializes all files together
 ---
 
 ## Example Gameplay
@@ -107,23 +111,6 @@ Player 2 (O), enter your move (1-9): 1
 
 ---
 
-## Contributing
+## Citations
 
-Feel free to fork this repository and submit pull requests for any enhancements, such as:
-- Adding AI for single-player mode.
-- Enhancing the board display with graphical UI.
-- Adding unit tests for game logic.
-
----
-
-## License
-
-This project is licensed under the **MIT License**. You are free to use, modify, and distribute this project.
-
----
-
-## Contact
-
-For any questions or feedback, feel free to contact the repository maintainer.
-
-Enjoy the game! 🎮
+# Used ChatGPT to structure this data but I have added my own comments and learnigs especially in the information about the files and classes.
